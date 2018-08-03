@@ -2,7 +2,11 @@
 
 A card navigation extends from [Flutter official demo](https://github.com/flutter/flutter/tree/master/examples/flutter_gallery)
 
+
 ## Demo
+
+![](./animate.gif)
+
 | Home | transition | Page |
 | --- | ------- | --- |
 | ![](./1.png) | ![](./2.png) | ![](./3.png) |
