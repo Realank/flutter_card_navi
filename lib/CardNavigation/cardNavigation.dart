@@ -407,17 +407,18 @@ class _SnappingScrollPhysics extends ClampingScrollPhysics {
   }
 }
 
-class AnimationDemoHome extends StatefulWidget {
-  const AnimationDemoHome({Key key, @required this.sectionList}) : super(key: key);
+class AnimateTabNavigation extends StatefulWidget {
+  const AnimateTabNavigation({Key key, @required this.sectionList}) : super(key: key);
   final List<CardSection> sectionList;
   static const String routeName = '/animation';
 
   @override
-  _AnimationDemoHomeState createState() => new _AnimationDemoHomeState(sectionList: sectionList);
+  _AnimateTabNavigationState createState() =>
+      new _AnimateTabNavigationState(sectionList: sectionList);
 }
 
-class _AnimationDemoHomeState extends State<AnimationDemoHome> {
-  _AnimationDemoHomeState({Key key, @required this.sectionList});
+class _AnimateTabNavigationState extends State<AnimateTabNavigation> {
+  _AnimateTabNavigationState({Key key, @required this.sectionList});
   final List<CardSection> sectionList;
   final ScrollController _scrollController = new ScrollController();
   final PageController _headingPageController = new PageController();
