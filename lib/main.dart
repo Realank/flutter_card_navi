@@ -38,28 +38,28 @@ const Color _mySin = const Color(0xFFF3A646);
 
 List<CardSection> allSections = <CardSection>[
   new CardSection(
-      title: 'EYEGLASSES',
+      title: 'First Page',
       leftColor: _mediumPurple,
       rightColor: _mariner,
-      contentWidget: Center(child: new Text('EYEGLASSES'))),
+      contentWidget: Center(child: new Text('第一页'))),
   new CardSection(
-      title: 'SEATING',
+      title: 'Second Page',
+      leftColor: _mariner,
+      rightColor: _mySin,
+      contentWidget: Center(child: new Text('第二页'))),
+  new CardSection(
+      title: 'Third Page',
+      leftColor: _mySin,
+      rightColor: _tomato,
+      contentWidget: Center(child: new Text('第三页'))),
+  new CardSection(
+      title: 'Forth Page',
       leftColor: _tomato,
+      rightColor: Colors.blue,
+      contentWidget: Center(child: new Text('第四页'))),
+  new CardSection(
+      title: 'Fifth Page',
+      leftColor: Colors.blue,
       rightColor: _mediumPurple,
-      contentWidget: Center(child: new Text('SEATING'))),
-  new CardSection(
-      title: 'DECORATION',
-      leftColor: _mySin,
-      rightColor: _tomato,
-      contentWidget: new Text('DECORATION')),
-  new CardSection(
-      title: 'PROTECTION',
-      leftColor: Colors.white,
-      rightColor: _tomato,
-      contentWidget: new Text('PROTECTION')),
-  new CardSection(
-      title: 'DECORATION',
-      leftColor: _mySin,
-      rightColor: _tomato,
-      contentWidget: new Text('DECORATION')),
+      contentWidget: Center(child: new Text('第五页'))),
 ];
